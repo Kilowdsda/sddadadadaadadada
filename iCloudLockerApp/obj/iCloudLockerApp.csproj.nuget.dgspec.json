@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/sddadadadaadadada/iCloudLockerApp/iCloudLockerApp.csproj": {}
+  },
+  "projects": {
+    "/workspace/sddadadadaadadada/iCloudLockerApp/iCloudLockerApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/sddadadadaadadada/iCloudLockerApp/iCloudLockerApp.csproj",
+        "projectName": "iCloudLockerApp",
+        "projectPath": "/workspace/sddadadadaadadada/iCloudLockerApp/iCloudLockerApp.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspace/sddadadadaadadada/iCloudLockerApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.20.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[127.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

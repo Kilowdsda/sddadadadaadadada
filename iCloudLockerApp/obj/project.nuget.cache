@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "o7MxOCIQrt3rxn3TFVJeJoHiZv5Esgjxo23CGapw0lkpCR1OTsL+DU84zNO/1PDArvLTnH8fPH6PXhD0rddxOQ==",
+  "success": true,
+  "projectFilePath": "/workspace/sddadadadaadadada/iCloudLockerApp/iCloudLockerApp.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/root/.nuget/packages/selenium.webdriver/4.20.0/selenium.webdriver.4.20.0.nupkg.sha512",
+    "/root/.nuget/packages/selenium.webdriver.chromedriver/127.0.6533.7200/selenium.webdriver.chromedriver.127.0.6533.7200.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "iCloudLockerApp depends on Selenium.WebDriver.ChromeDriver (>= 127.0.0) but Selenium.WebDriver.ChromeDriver 127.0.0 was not found. An approximate best match of Selenium.WebDriver.ChromeDriver 127.0.6533.7200 was resolved.",
+      "libraryId": "Selenium.WebDriver.ChromeDriver",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
